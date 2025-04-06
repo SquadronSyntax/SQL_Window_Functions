@@ -4,8 +4,8 @@ GROUP ASSIGNMENT ON SQL WINDOW FUNCTIONS
 NAMES: - Ingabire Queen Kellen 26655 & Muhimpundu Divine 26850
        
  **TOGETHER WE CHOSE EMPLOYEES DATA SET**
-**  Description**
-
+ 
+ Description
 Our Work demonstrates the use of advanced SQL window functions on the employees dataset, which includes employee information like ID, name, department, salary, and join date.
  **Queries and Explanations**
 1. LAG and LEAD
