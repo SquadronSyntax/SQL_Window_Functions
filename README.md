@@ -8,7 +8,8 @@ NAMES: - Ingabire Queen Kellen 26655 & Muhimpundu Divine 26850
 **DESCRIPTION**
 
 our Work demonstrates the use of advanced SQL window functions on the employees dataset, which includes employee information like ID, name, department, salary, and join date.
- **Queries and Explanations**
+** Queries and Explanations**
+
 1. LAG and LEAD
 Used to compare an employee’s salary with the previous and next employee in the same department.
 •	LAG: Shows the salary of the employee before the current one in the department.
