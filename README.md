@@ -1,5 +1,6 @@
 # SQL_Window_Functions
 GROUP ASSIGNMENT ON SQL WINDOW FUNCTIONS
+
 NAMES: - Ingabire Queen Kellen 26655
        - MUhimpundu Divine 26850
        
