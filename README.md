@@ -80,6 +80,14 @@ RANK() assigns salary ranks per department.
      Running Queries And see The Output
     ![top2 joined according todate pic4](https://github.com/user-attachments/assets/6e925562-7ad5-46ba-b420-070c8e4c8de3)
 
+**Explanation**:
+ROW_NUMBER() gives each employee a unique position by join date.
+
+PARTITION BY department → restarts count in every department.
+
+ORDER BY join_date ASC → oldest join dates come first.
+
+Filters to show the first 2 joiners per department.
    
      
  
