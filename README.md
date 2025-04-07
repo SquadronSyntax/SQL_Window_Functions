@@ -14,6 +14,7 @@ our Work demonstrates the use of advanced SQL window functions on the employees 
  **QUERIES AND EXPLANATION**
 1. LAG and LEAD
 Used to compare an employee’s salary with the previous and next employee in the same department.
+
 •	LAG: Shows the salary of the employee before the current one in the department.
 •	LEAD: Shows the salary of the employee after the current one in the department
 
