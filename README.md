@@ -98,9 +98,11 @@ Filters to show the first 2 joiners per department.
 
  **EXPLANATION**:
  
-MAX(salary) OVER (PARTITION BY department) → shows highest salary in each department.
+MAX(salary) OVER (PARTITION BY department)
+→ shows highest salary in each department.
 
-MAX(salary) OVER () → shows the company-wide highest salary.
+MAX(salary) OVER () 
+→ shows the company-wide highest salary.
 
 No GROUP BY is used — every row still appears with added aggregate information.
 
@@ -113,18 +115,23 @@ No GROUP BY is used — every row still appears with added aggregate information
 → In sales, to track previous month's performance.
 
 LEAD()
+
 – Shows the next value, useful for forecasting or checking what's coming next (e.g., next salary in order).
 
 RANK()
+
 – Ranks values with gaps for ties, useful when giving positions in competitions or rewards.
 
 DENSE_RANK()
+
 – Ranks values without gaps, useful for grouped awards or fair ranking with ties.
 
 ROW_NUMBER()
+
 – Gives a unique number to each row, useful for getting first, second, etc., records per group.
 
 MAX() OVER()
+
 – Calculates the maximum value per group and overall without collapsing rows — great for comparing performance within vs across categories.
 
 
