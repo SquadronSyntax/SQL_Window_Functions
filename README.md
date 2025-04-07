@@ -92,7 +92,9 @@ Filters to show the first 2 joiners per department.
 
 5. **AGGREGATION WITH WINDOW FUNCTION (MAX SALARY)**
    SQL code and output showing maximum salaries within each department and overall maximum salary using the MAX() window function
+   
    ![aggretion function pic 5](https://github.com/user-attachments/assets/c353a51f-cff0-4484-965c-03e9920ebac5)
+   
 
    
      
