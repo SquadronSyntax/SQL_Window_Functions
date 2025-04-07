@@ -26,7 +26,7 @@ LAG() shows the previous employee’s salary, and LEAD() shows the next employee
 Here is the codes we used 
 
 ![creating table and inserting pic 1](https://github.com/user-attachments/assets/b4d60336-3973-4219-83a0-138590626513)
-Explanation:
+**EXPLANATION:**
 LAG(salary) → gets previous employee’s salary in the same department.
 
 LEAD(salary) → gets next employee’s salary in the same department.
