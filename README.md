@@ -61,7 +61,14 @@ PARTITION BY department → ranks employees within each department.
 
 3. Top 3 Employees per Department (with ties)
    Running Queries AND OutPut
-   ![top 3 pic ](https://github.com/user-attachments/assets/13a87dcc-b9c3-462b-9941-1fad2e7cc488)
+   ![top 3 pic ](https://github.com/user-attachments/assets/13a87dcc-b9c3-462b-9941-1fad2e7cc488)Explanation:
+RANK() assigns salary ranks per department.
+
+The outer SELECT filters to top 3 ranked (including ties).
+
+If two employees tie for 2nd place, both are included.
+   
+   
 
    
 
