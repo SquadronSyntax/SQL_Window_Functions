@@ -1,7 +1,9 @@
 # SQL_Window_Functions
 GROUP ASSIGNMENT ON SQL WINDOW FUNCTIONS
 
-NAMES: - Ingabire Queen Kellen 26655 & Muhimpundu Divine 26850
+NAMES: - Ingabire Queen Kellen 26655
+
+   -Muhimpundu Divine 26850
 
  **TOGETHER WE CHOSE EMPLOYEES DATA SET**
  
@@ -44,9 +46,9 @@ ORDER BY salary → the previous and next values are based on ascending salary o
   
   Ranks employees by Salary Within their department 
   
-  •	RANK(): Skips ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 3).
+  •	RANK( ): Skips ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 3).
   
-  •	DENSE_RANK(): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
+  •	DENSE_RANK( ): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
   
    Running Queries And see The Output
    
@@ -54,9 +56,9 @@ ORDER BY salary → the previous and next values are based on ascending salary o
    
   **EXPLANATION**:
   
-RANK() → gives ranks with gaps when salaries are tied.
+RANK( ) → gives ranks with gaps when salaries are tied.
 
-DENSE_RANK() → gives ranks without gaps.
+DENSE_RANK( ) → gives ranks without gaps.
 
 ORDER BY salary DESC → highest salaries come first.
 
@@ -69,7 +71,7 @@ PARTITION BY department → ranks employees within each department.
    
    **EXPLANATION**:
    
-RANK() assigns salary ranks per department.
+RANK( ) assigns salary ranks per department.
 
  The outer SELECT filters to top 3 ranked (including ties).
  
@@ -82,7 +84,7 @@ RANK() assigns salary ranks per department.
 
 **EXPLANATION**:
 
-ROW_NUMBER() gives each employee a unique position by join date.
+ROW_NUMBER( ) gives each employee a unique position by join date.
 
 PARTITION BY department → restarts count in every department.
 
@@ -101,7 +103,7 @@ Filters to show the first 2 joiners per department.
 MAX(salary) OVER (PARTITION BY department)
 → shows highest salary in each department.
 
-MAX(salary) OVER () 
+MAX(salary) OVER ( ) 
 → shows the company-wide highest salary.
 
 No GROUP BY is used — every row still appears with added aggregate information.
@@ -114,7 +116,7 @@ No GROUP BY is used — every row still appears with added aggregate information
 
 → In sales, to track previous month's performance.
 
-LEAD(v)
+LEAD( )
 
 – Shows the next value, useful for forecasting or checking what's coming next (e.g., next salary in order).
 
