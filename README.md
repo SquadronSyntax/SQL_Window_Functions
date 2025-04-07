@@ -49,6 +49,16 @@ ORDER BY salary → the previous and next values are based on ascending salary o
    Running Queries And see The Output
    
    ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)
+   
+  Explanation:
+RANK() → gives ranks with gaps when salaries are tied.
+
+DENSE_RANK() → gives ranks without gaps.
+
+ORDER BY salary DESC → highest salaries come first.
+
+PARTITION BY department → ranks employees within each department.  
+   
 
   
   
