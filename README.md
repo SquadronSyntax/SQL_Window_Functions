@@ -8,6 +8,7 @@ NAMES: - Ingabire Queen Kellen 26655 & Muhimpundu Divine 26850
 **DESCRIPTION**
 
 our Work demonstrates the use of advanced SQL window functions on the employees dataset, which includes employee information like ID, name, department, salary, and join date.
+
 **TOOL WE USED: (MySQL CLI )**
 
  **QUERIES AND EXPLANATION**
