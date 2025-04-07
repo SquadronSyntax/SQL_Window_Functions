@@ -58,6 +58,7 @@ DENSE_RANK() → gives ranks without gaps.
 ORDER BY salary DESC → highest salaries come first.
 
 PARTITION BY department → ranks employees within each department.  
+3. Top 3 Employees per Department (with ties)
    
 
   
