@@ -29,6 +29,7 @@ here is the codes we used
  OUTPUT AFTER RUNNING CODES 
 
  ![output using lag lead output pic2](https://github.com/user-attachments/assets/79c2c538-bdb7-4d9e-949e-f690bf836f03)
+ 
   2.RANK AND DENSE_RANK
   
   Ranks employees by Salary Within their department 
