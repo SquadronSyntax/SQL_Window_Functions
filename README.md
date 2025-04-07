@@ -102,7 +102,9 @@ MAX(salary) OVER (PARTITION BY department) → shows highest salary in each depa
 
 MAX(salary) OVER () → shows the company-wide highest salary.
 
-No GROUP BY is used — every row still appears with added aggregate info
+No GROUP BY is used — every row still appears with added aggregate information
+
+ 
 
   
    
