@@ -108,6 +108,7 @@ No GROUP BY is used — every row still appears with added aggregate information
   LAG()
   
 → Used in HR to compare current salary to previous salary within a department.
+
 → In sales, to track previous month's performance.
 
 
