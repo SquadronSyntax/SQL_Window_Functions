@@ -3,7 +3,8 @@ GROUP ASSIGNMENT ON SQL WINDOW FUNCTIONS
 
 NAMES:
 - Ingabire Queen Kellen 26655
- -Muhimpundu Divine 26850
+  
+- Muhimpundu Divine 26850
 
  **TOGETHER WE CHOSE EMPLOYEES DATA SET**
  
