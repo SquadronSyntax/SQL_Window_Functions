@@ -15,7 +15,6 @@ our Work demonstrates the use of advanced SQL window functions on the employees 
 1. LAG and LEAD
 Used to compare an employee’s salary with the previous and next employee in the same department.
 •	LAG: Shows the salary of the employee before the current one in the department.
-
 •	LEAD: Shows the salary of the employee after the current one in the department
 
 **SQL code and output using LAG() and LEAD() window functions to compare employee salaries within each department.
@@ -35,7 +34,6 @@ here is the codes we used
   
   •	DENSE_RANK(): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
    Running Queries And see The Output
-   
    ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)
 
   
