@@ -17,4 +17,5 @@ Used to compare an employee’s salary with the previous and next employee in th
 
 **SQL code and output using LAG() and LEAD() window functions to compare employee salaries within each department. LAG() shows the previous employee’s salary, and LEAD() shows the next employee’s salary**
 
+
        
