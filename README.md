@@ -89,6 +89,8 @@ PARTITION BY department → restarts count in every department.
 ORDER BY join_date ASC → oldest join dates come first.
 
 Filters to show the first 2 joiners per department.
+
+5. **AGGREGATION WITH WINDOW FUNCTION (MAX SALARY)**
    
      
  
