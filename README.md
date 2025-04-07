@@ -67,6 +67,7 @@ PARTITION BY department → ranks employees within each department.
 RANK() assigns salary ranks per department.
 
 The outer SELECT filters to top 3 ranked (including ties).
+
 If two employees tie for 2nd place, both are included.
    
    
