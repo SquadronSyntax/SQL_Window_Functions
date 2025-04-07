@@ -97,6 +97,7 @@ Filters to show the first 2 joiners per department.
    ![aggretion function pic 5](https://github.com/user-attachments/assets/c353a51f-cff0-4484-965c-03e9920ebac5)
 
  **EXPLANATION**:
+ 
 MAX(salary) OVER (PARTITION BY department) → shows highest salary in each department.
 
 MAX(salary) OVER () → shows the company-wide highest salary.
