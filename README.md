@@ -75,7 +75,7 @@ RANK() assigns salary ranks per department.
  
  If two employees tie for 2nd place, both are included.
  
- 4. First 2 Joins per Department (Earliest Records)
+ 4. **FIRST 2 JOINS PER DEPARTMENT(Earliest Records)**
     
      Running Queries And see The Output
     ![top2 joined according todate pic4](https://github.com/user-attachments/assets/6e925562-7ad5-46ba-b420-070c8e4c8de3)
