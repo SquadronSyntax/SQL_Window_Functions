@@ -32,7 +32,7 @@ here is the codes we used
   
   •	RANK(): Skips ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 3).
   
-  •	DENSE_RANK(): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2)..
+  •	DENSE_RANK(): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
   
   
  
