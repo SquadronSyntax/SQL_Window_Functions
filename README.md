@@ -40,7 +40,7 @@ here is the codes we used
   
    Running Queries And see The Output
    
-   ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)..
+   ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1).
 
   
   
