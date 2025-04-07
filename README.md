@@ -33,6 +33,9 @@ here is the codes we used
   •	RANK(): Skips ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 3).
   
   •	DENSE_RANK(): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
+   Running Queries And see The Output
+   ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)
+
   
   
  
