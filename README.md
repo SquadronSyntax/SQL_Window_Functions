@@ -104,7 +104,12 @@ MAX(salary) OVER () → shows the company-wide highest salary.
 
 No GROUP BY is used — every row still appears with added aggregate information.
 
-  **REAL LIFE APPLICATION OF WINDOW FUNCTIONS**
+  **REAL LIFE APPLICATION  FOR EACH WINDOW FUNCTIONS**
+  LAG()
+→ Used in HR to compare current salary to previous salary within a department.
+→ In sales, to track previous month's performance.
+
+
 
 
   
