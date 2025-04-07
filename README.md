@@ -15,7 +15,7 @@ our Work demonstrates the use of advanced SQL window functions on the employees 
 **TOOL WE USED: (MySQL CLI )**
 
  **QUERIES AND EXPLANATION**
-1. **LAG and LEAD**
+1. **LAG( )and LEAD( )**
    
 Used to compare an employee’s salary with the previous and next employee in the same department.
 
@@ -43,7 +43,7 @@ ORDER BY salary → the previous and next values are based on ascending salary o
 
  ![output using lag lead output pic2](https://github.com/user-attachments/assets/79c2c538-bdb7-4d9e-949e-f690bf836f03)
  
-  2.RANK AND DENSE_RANK
+  2.RANK( )AND DENSE_RANK( )
   
   Ranks employees by Salary Within their department 
   
