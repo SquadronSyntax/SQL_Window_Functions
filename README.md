@@ -27,6 +27,7 @@ Here is the codes we used
 
 ![creating table and inserting pic 1](https://github.com/user-attachments/assets/b4d60336-3973-4219-83a0-138590626513)
 **EXPLANATION:**
+
 LAG(salary) → gets previous employee’s salary in the same department.
 
 LEAD(salary) → gets next employee’s salary in the same department.
@@ -51,7 +52,8 @@ ORDER BY salary → the previous and next values are based on ascending salary o
    
    ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)
    
-  Explanation:
+  **EXPLANATION**:
+  
 RANK() → gives ranks with gaps when salaries are tied.
 
 DENSE_RANK() → gives ranks without gaps.
