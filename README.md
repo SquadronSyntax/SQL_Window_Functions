@@ -135,7 +135,7 @@ ROW_NUMBER( )
 
 MAX( ) OVER( )
 
-– Calculates the maximum value per group and overall without collapsing rows — great for comparing performance within vs across categories..
+– Calculates the maximum value per group and overall without collapsing rows — great for comparing performance within vs across categories.
 
 
 
