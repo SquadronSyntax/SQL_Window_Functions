@@ -31,6 +31,7 @@ join_date: The date the employee joined the company
 The table below shows that the employees table was created successfully and data was inserted correctly:
 
 ![tableone pic](https://github.com/user-attachments/assets/1485820d-f5f7-43c6-9ceb-605abe31c80e)
+
 ![pic of inserted data pic 3](https://github.com/user-attachments/assets/bf43591c-0a76-457f-b9a4-52a7573b361c)
 
 
@@ -52,8 +53,8 @@ Compare the current salary to the previous one.
 
 Show if it's HIGHER, LOWER, or EQUAL.
 
-🎯 Expected Outcome
-A table that shows each employee’s:
+🎯 EXPLANATION ON OUTPUT
+table  shows each employee’s:
 
 salary
 
@@ -63,74 +64,80 @@ next_salary
 
 comparison result (compared to previous)
 
-
-
-
   2.RANK( )AND DENSE_RANK( )
   
   Ranks employees by Salary Within their department 
+  
   
   •	RANK( ): Skips ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 3).
   
   •	DENSE_RANK( ): Does not skip ranks for tied employees (e.g., two people with the same salary are both ranked 1, and the next rank is 2).
   
+
+  
    Running Queries And see The Output
    
-   ![rank and dense pic 3](https://github.com/user-attachments/assets/39f346d0-b0c4-4c68-a095-510a686ad2a1)
+   ![rank and dense pic5](https://github.com/user-attachments/assets/218ee13c-a20c-4d1e-a9f4-be6ef5a7a341)
+
+     
+
+3. Identifying Top 3 Records Per Category
    
-  **EXPLANATION**:
-  
-RANK( ) → gives ranks with gaps when salaries are tied.
+🔍** SQL Functions Used: RANK(), Subquery**
 
-DENSE_RANK( ) → gives ranks without gaps.
+Explanation:
 
-ORDER BY salary DESC → highest salaries come first.
+Ranks employees by salary within each department.
 
-PARTITION BY department → ranks employees within each department.  
+Only selects those with a rank of 3 or less (i.e., top 3 salaries).
 
-3. **Top 3 EMPLOYEES PER DEPARTMENT (WITH TIES)**
-   
-  **RUNNING QUERIES AND SEE OUTPUT**
-   ![top 3 pic ](https://github.com/user-attachments/assets/13a87dcc-b9c3-462b-9941-1fad2e7cc488)
-   
-   **EXPLANATION**:
-   
-RANK( ) assigns salary ranks per department.
+Ties may lead to more than 3 records if multiple employees have the same salary.
 
- The outer SELECT filters to top 3 ranked (including ties).
- 
- If two employees tie for 2nd place, both are included.
- 
+🎯 Expected Outcome:
+The result shows the top 3 highest-paid employees per department, even if more than 3 due to salary ties.
+
+**SQL CODES AND OUTPUT**
+
+ ![top 3 pic](https://github.com/user-attachments/assets/fe38ca89-23f7-4201-acd6-d9585e1c2763)
+
  4. **FIRST 2 JOINS PER DEPARTMENT(Earliest Records)**
-    
-     Running Queries And see The Output
-    ![top2 joined according todate pic4](https://github.com/user-attachments/assets/6e925562-7ad5-46ba-b420-070c8e4c8de3)
+    SQL Function Used: ROW_NUMBER()
+     Explanation:
+ROW_NUMBER() gives a unique number to each employee based on who joined first in each department.
 
-**EXPLANATION**:
+Filters to only include the first 2 employees to join per department.
 
-ROW_NUMBER( ) gives each employee a unique position by join date.
+🎯 Expected Outcome:
+A list of the earliest joiners (top 2) in each department based on the join date.
 
-PARTITION BY department → restarts count in every department.
+**SQL CODES AND OUTPUT**
 
-ORDER BY join_date ASC → oldest join dates come first.
+![top 2 pic](https://github.com/user-attachments/assets/adfb2d73-e297-4f5a-a7a8-9e7e89318eac)
 
-Filters to show the first 2 joiners per department.
 
-5. **AGGREGATION WITH WINDOW FUNCTION (MAX SALARY)**
+5. Aggregation with Window Functions
    
-   SQL code and output showing maximum salaries within each department and overall maximum salary using the MAX() window function
+🔍 SQL Function Used: MAX() OVER (...)
+Explanation:
+Calculates the maximum salary per department using PARTITION BY.
+
+Calculates the overall highest salary using MAX() without partitioning.
+
+🎯 Expected Outcome:
+
+Each row will show:
+
+.The employee’s salary
+
+.The highest salary in their department
+
+.The highest salary in the entire company
    
-   ![aggretion function pic 5](https://github.com/user-attachments/assets/c353a51f-cff0-4484-965c-03e9920ebac5)
+   **SQL code and outpu**
+   
+   ![aggregetion function](https://github.com/user-attachments/assets/36fa6d42-61bd-4a19-bbcb-bb96a154a6c7)
 
- **EXPLANATION**:
- 
-MAX(salary) OVER (PARTITION BY department)
-→ shows highest salary in each department.
-
-MAX(salary) OVER ( ) 
-→ shows the company-wide highest salary.
-
-No GROUP BY is used — every row still appears with added aggregate information.
+   
 
   **REAL LIFE APPLICATION  FOR EACH WINDOW FUNCTIONS**
   
@@ -159,6 +166,19 @@ ROW_NUMBER( )
 MAX( ) OVER( )
 
 – Calculates the maximum value per group and overall without collapsing rows — great for comparing performance within vs across categories.
+
+As conluding,
+This assignment demonstrates a strong understanding of advanced SQL techniques, including:
+
+Comparing data using window functions
+
+Ranking data correctly
+
+Filtering top records with ties
+
+Finding earliest entries
+
+Using PARTITION BY for advanced aggregations
 
 
 
