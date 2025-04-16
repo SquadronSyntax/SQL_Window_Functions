@@ -12,9 +12,9 @@ We created a dataset named employees to simulate a real-world scenario involving
 
 Each record contains:
 
-emp_id: Unique identifier for each employee
+**emp_id:** Unique identifier for each employee
 
-emp_name: Employee name
+**emp_name:** Employee name
 
 department: Department where the employee works
 
@@ -22,7 +22,7 @@ salary: Monthly salary of the employee
 
 join_date: The date the employee joined the company
 
-👉 Purpose: This dataset helps demonstrate the use of SQL Window Functions and other advanced queries as per assignment instructions.
+👉 **PURPOSE:** This dataset helps demonstrate the use of SQL Window Functions and other advanced queries as per assignment instructions.
 
 
 
