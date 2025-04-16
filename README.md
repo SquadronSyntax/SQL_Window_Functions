@@ -43,7 +43,6 @@ Used to compare an employee’s salary with the previous and next employee in th
 •	LEAD ( ) : Shows the salary of the employee after the current one in the department
 
 **SQL code and output using LAG() and LEAD() window functions to compare employee salaries within each department.
-LAG() shows the previous employee’s salary, and LEAD() shows the next employee’s salary**
 
 ![LAG AND LEAD OG PIC6](https://github.com/user-attachments/assets/4ab8f75d-0272-457c-8bf5-f2744c8a7553)
 
