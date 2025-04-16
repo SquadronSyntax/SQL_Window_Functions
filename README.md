@@ -12,9 +12,21 @@ NAMES:
 
 our Work demonstrates the use of advanced SQL window functions on the employees dataset, which includes employee information like ID, name, department, salary, and join date.
 
-**TOOL WE USED: (MySQL CLI )**
+*
 
- **QUERIES AND EXPLANATION**
+ 
+  For this SQL assignment, we selected a dataset in the Employees domain. 
+  The dataset contains employee details such as their ID, name, department, salary, and date of joining.
+  This structured data allows us to demonstrate various SQL window functions, including LAG(), LEAD(), RANK(), DENSE_RANK(), and aggregations.
+  These functions help analyze patterns such as salary comparisons, ranking within departments, and identifying earliest joiners or top earners.
+  
+**QUERIES AND EXPLANATION**
+The table below shows that the employees table was created successfully and data was inserted correctly:
+
+![tableone pic](https://github.com/user-attachments/assets/1485820d-f5f7-43c6-9ceb-605abe31c80e)
+![pic of inserted data pic 3](https://github.com/user-attachments/assets/bf43591c-0a76-457f-b9a4-52a7573b361c)
+
+
 1. **LAG( ) and LEAD( )**
    
 Used to compare an employee’s salary with the previous and next employee in the same department.
@@ -26,23 +38,28 @@ Used to compare an employee’s salary with the previous and next employee in th
 **SQL code and output using LAG() and LEAD() window functions to compare employee salaries within each department.
 LAG() shows the previous employee’s salary, and LEAD() shows the next employee’s salary**
 
-Here is the codes we used 
+![LAG AND LEAD OG PIC6](https://github.com/user-attachments/assets/4ab8f75d-0272-457c-8bf5-f2744c8a7553)
 
-![creating table and inserting pic 1](https://github.com/user-attachments/assets/b4d60336-3973-4219-83a0-138590626513)
-**EXPLANATION:**
+This logic uses partitioning by department and sorts by salary to:
 
-LAG(salary) → gets previous employee’s salary in the same department.
+Compare the current salary to the previous one.
 
-LEAD(salary) → gets next employee’s salary in the same department.
+Show if it's HIGHER, LOWER, or EQUAL.
 
-PARTITION BY department → restarts the order for each department.
+🎯 Expected Outcome
+A table that shows each employee’s:
 
-ORDER BY salary → the previous and next values are based on ascending salary order.
+salary
 
- OUTPUT AFTER RUNNING CODES 
+previous_salary
 
- ![output using lag lead output pic2](https://github.com/user-attachments/assets/79c2c538-bdb7-4d9e-949e-f690bf836f03)
- 
+next_salary
+
+comparison result (compared to previous)
+
+
+
+
   2.RANK( )AND DENSE_RANK( )
   
   Ranks employees by Salary Within their department 
