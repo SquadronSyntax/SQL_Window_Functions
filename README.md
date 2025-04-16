@@ -6,9 +6,10 @@ NAMES:
   
 - Muhimpundu Divine 26850
 
-** DATASET WE  USED: EMPLOYEES**
+ **DATASET WE  USED: EMPLOYEES**
  
 We created a dataset named employees to simulate a real-world scenario involving employees across various departments.
+
 Each record contains:
 
 emp_id: Unique identifier for each employee
