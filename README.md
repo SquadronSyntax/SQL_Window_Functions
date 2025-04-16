@@ -2,7 +2,7 @@
 GROUP ASSIGNMENT ON SQL WINDOW FUNCTIONS
 
 NAMES:
-- Ingabire Queen Kellen 26655'.,
+- Ingabire Queen Kellen 26655'.,,
   
 - Muhimpundu Divine 26850
 
