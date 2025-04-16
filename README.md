@@ -6,21 +6,28 @@ NAMES:
   
 - Muhimpundu Divine 26850
 
- **TOGETHER WE CHOSE EMPLOYEES DATA SET**
+** DATASET WE  USED: EMPLOYEES**
  
-**DESCRIPTION**
+We created a dataset named employees to simulate a real-world scenario involving employees across various departments.
+Each record contains:
 
-our Work demonstrates the use of advanced SQL window functions on the employees dataset, which includes employee information like ID, name, department, salary, and join date.
+emp_id: Unique identifier for each employee
 
-*
+emp_name: Employee name
 
- 
-  For this SQL assignment, we selected a dataset in the Employees domain. 
-  The dataset contains employee details such as their ID, name, department, salary, and date of joining.
-  This structured data allows us to demonstrate various SQL window functions, including LAG(), LEAD(), RANK(), DENSE_RANK(), and aggregations.
-  These functions help analyze patterns such as salary comparisons, ranking within departments, and identifying earliest joiners or top earners.
+department: Department where the employee works
+
+salary: Monthly salary of the employee
+
+join_date: The date the employee joined the company
+
+👉 Purpose: This dataset helps demonstrate the use of SQL Window Functions and other advanced queries as per assignment instructions.
+
+
+
   
 **QUERIES AND EXPLANATION**
+
 The table below shows that the employees table was created successfully and data was inserted correctly:
 
 ![tableone pic](https://github.com/user-attachments/assets/1485820d-f5f7-43c6-9ceb-605abe31c80e)
