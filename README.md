@@ -22,11 +22,8 @@ Each record contains:
 
 **join_date:** The date the employee joined the company
 
-👉 **PURPOSE:** This dataset helps demonstrate the use of SQL Window Functions and other advanced queries as per assignment instructions.
-
-
-
-  
+👉 **PURPOSE:** This dataset helps demonstrate the use of SQL Window Functions.
+ 
 **QUERIES AND EXPLANATION**
 
 The table below shows that the employees table was created successfully and data was inserted correctly:
